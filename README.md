@@ -1,4 +1,4 @@
-## Express Api - Impresso.com
+## Express + Sequelize API
 
 ### Estrutura do projeto:
 
@@ -18,7 +18,7 @@
 - Rodando o projeto -> `npm run dev`
 
 > Criando uma nova migration:
-- `sequelize migration:create --name=empresas`
+- `sequelize migration:create --name=nome_migration`
 
 > Executando as migrations:
 - `sequelize db:migrate`
@@ -27,7 +27,7 @@
 - `sequelize db:migrate:undo`
 
 > Criando uma nova seeder:
-- `sequelize seed:generate --name empresa`
+- `sequelize seed:generate --name nome_seeder`
 
 > Executando as seeders:
 - `sequelize db:seed:all`
