@@ -1,0 +1,26 @@
+{
+  "name": "awesome_github",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "migrations": "./node_modules/.bin/sequelize db:migrate",
+    "seeders": "./node_modules/.bin/sequelize db:seed:all"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "faker": "^4.1.0",
+    "morgan": "^1.9.1",
+    "sequelize": "^4.38.1",
+    "sqlite3": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4",
+    "sequelize-cli": "^4.1.1"
+  }
+}

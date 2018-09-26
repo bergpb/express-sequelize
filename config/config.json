@@ -1,0 +1,20 @@
+{
+  "development": {
+    "dialect": "sqlite",
+    "storage": "awesome_github.sqlite3"
+  },
+  "test": {
+    "username": "root",
+    "password": "000000",
+    "database": "awesome_github",
+    "host": "awesome.db",
+    "dialect": "sqlite"
+  },
+  "production": {
+    "username": "root",
+    "password": "000000",
+    "database": "awesome_github",
+    "host": "awesome.db",
+    "dialect": "sqlite"
+  }
+}
